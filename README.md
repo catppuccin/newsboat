@@ -24,9 +24,9 @@ curl -o ~/.newsboat/dark https://raw.githubusercontent.com/catppuccin/newsboat/m
 ```
 2. Source the desired config file in your `config` file, usually `~/.newsboat/config`:
 ```
-include ~/.config/newsboat/latte
+include ~/.newsboat/latte
 # or 
-include ~/.config/newsboat/dark
+include ~/.newsboat/dark
 ```
 
 ## 💝 Thanks to
