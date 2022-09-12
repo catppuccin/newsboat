@@ -17,8 +17,17 @@
 
 ## Usage
 
-1. Download [config](https://raw.githubusercontent.com/catppuccin/newsboat/main/config)
-2. Copy the content into your config file, which is *usually* in `~/.newsboat/config`
+1. Download [latte](https://raw.githubusercontent.com/catppuccin/newsboat/main/themes/latte) and [dark](https://raw.githubusercontent.com/catppuccin/newsboat/main/themes/dark) into newsboat config directory (usually `~/.newsboat`)
+```bash
+curl -o ~/.newsboat/latte https://raw.githubusercontent.com/catppuccin/newsboat/main/themes/latte
+curl -o ~/.newsboat/dark https://raw.githubusercontent.com/catppuccin/newsboat/main/themes/dark
+```
+2. Source the desired config file in your `config` file, usually `~/.newsboat/config`:
+```
+include ~/.config/newsboat/latte
+# or 
+include ~/.config/newsboat/dark
+```
 
 ## 💝 Thanks to
 
