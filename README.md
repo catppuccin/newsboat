@@ -17,19 +17,12 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-## 🙋 FAQ (optional)
-
--	Q: **_"Where can I find the doc?"_**
-	A: Run `:help theme`
+1. Download [config](https://raw.githubusercontent.com/catppuccin/newsboat/main/config)
+2. Copy the content into your config file, which is *usually* in `~/.newsboat/config`
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [ignamartinoli](https://github.com/ignamartinoli)
 
 &nbsp;
 
